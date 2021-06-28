@@ -1,0 +1,59 @@
+.content-column {
+  min-width: 300px;
+  margin: 10px;
+  background: pink;
+  padding: 10px;
+  background-color: #EBECF0;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  touch-action: manipulation;
+  cursor: grab;
+}
+
+.container-cards {
+  margin-top: 32px;
+}
+
+.container-title-column {
+  margin: 8px;
+  display: flex;
+}
+.container-title-column p{
+  /* Column Title */
+  font-family: Avenir Next;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #FFFFFF;
+}
+
+.input-title-column {
+  width: 74%;
+  padding: 5px;
+  border: none;
+  margin: 5px;
+  background: #ccccea;
+  font-weight: bold;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+}
+
+/* tags */
+
+.tags {
+ font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-style: Bold;
+  font-size: 12px;
+  line-height: 14px;
+  vertical-align: Top;
+  letter-spacing: -2%;
+  padding: 4px 5px;
+  font-weight: bold;
+  background: #5cc4ff;
+  color: white;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 5px;
+}
